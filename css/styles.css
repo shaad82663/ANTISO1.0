@@ -26,6 +26,12 @@ h1{
 }
 .photo{
     transform: translateX(50px);
+
+}
+@media( max-width : 1010px) {
+  .photo{
+    display: none;
+  }
 }
 .navbar{
     background-color: red !important;
